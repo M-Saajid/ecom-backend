@@ -5,8 +5,8 @@ const findOrCreate = require("mongoose-findorcreate");
 const passportLocalMongoose = require("passport-local-mongoose");
 
 //database connection
-// mongoose.connect("mongodb://localhost:27017/ecom");
-mongoose.connect("mongodb+srv://admin-sk:0759342494@cluster0.jqida.mongodb.net/ecom");
+mongoose.connect("mongodb://localhost:27017/ecom");
+// mongoose.connect("mongodb+srv://admin-sk:0759342494@cluster0.jqida.mongodb.net/ecom");
 
 //item schema
 const itemSchema = new mongoose.Schema({
